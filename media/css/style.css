@@ -1,0 +1,306 @@
+/*
+Theme Name: Yachtpro
+Version: 1.0
+Author: Darryl Cousins > Gilbert Pellegrom
+Author URI: http://darrylcousins.net.nz/
+*/
+
+/*====================*/
+/*=== Reset Styles ===*/
+/*====================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+}
+body {
+line-height:1;
+}
+table {
+border-collapse:separate;
+border-spacing:0;
+}
+caption, th, td {
+text-align:left;
+font-weight:normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:"";
+}
+blockquote, q {
+quotes:"" "";
+}
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+display: block;
+}
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+body {
+font:11pt Quattrocento Sans, Arial, Helvetica, sans-serif;
+color: #1f406b;
+background: #fff;
+margin: 0.5em 0 1em 0;
+background: white url('../images/bg-gradient.jpg') repeat-x 0 0;
+}
+#column {
+  margin-top: 1em;
+}
+a {
+color:#6d758e;
+text-decoration:none;
+border-bottom:1px dotted #c5c5c5;
+-moz-transition:all 150ms ease-in;
+-webkit-transition:all 150ms ease-in;
+-o-transition:all 150ms ease-in;
+}
+a:hover, a:active {
+color:#333;
+text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+line-height:1.2;
+margin-bottom:0.6em;
+font-family: Federo;
+}
+h1 {
+font-size:1.5em;
+}
+h2 {
+font-size:1.4em;
+}
+h3 {
+font-size:1.4em;
+margin-top:2em;
+}
+h4 {
+font-size:1.1em;
+font-weight:bold;
+}
+
+p {
+margin-bottom:1em;
+}
+
+ol, ul {
+padding-left:20px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+b, strong {
+font-weight:bold;
+color: #273f79;
+}
+i, em {
+font-style:italic;
+}
+u {
+text-decoration:underline;
+}
+hr.sep {
+  display:block;
+  border:0;
+}
+dl {
+  margin-left: 1em;
+}
+dt {
+font-weight: bold;
+font-family: Federo;
+}
+dd {
+line-height: 1.5em;
+margin-bottom: 1em;
+margin-left: 1em;
+}
+
+section ul {
+list-style:disc;
+margin:1em;
+margin-bottom:2em;
+padding-left: 1em;
+}
+
+section ul li {
+    margin-bottom:0.5em;
+}
+
+section a {
+    text-decoration: underline;
+    border: none;
+}
+
+section p {
+    text-align: justify;
+    padding-right:20px;
+    padding-left:10px;
+    line-height: 1.3em;
+}
+
+.shift-left {
+    margin-left: 5em;
+}
+
+/*========================*/
+/*=== Structure Styles ===*/
+/*========================*/
+#wrapper {
+background-color: white;
+border: solid #1c4070 1px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+margin-top: 12px;
+padding-left: 30px;
+padding-top: 0px;
+padding-bottom: 15px;
+}
+#header-container {
+background: transparent url('../images/headers/panama.jpg') 100% 0 no-repeat;
+height: 100px;
+}
+#header-container h1 {
+height: 110px;
+}
+#logo {
+margin-top:10px;
+height: 110px;
+width: 150px;
+background: white url('../images/yachtlogo.jpg') no-repeat 0 5px;
+}
+#logo a {
+  text-decoration:none;
+  border: none;
+}
+#image {
+  margin-top: 5px;
+}
+#image img {
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: 5px 5px 5px #bbb;
+-webkit-box-shadow: 5px 5px 5px #bbb;
+box-shadow: 5px 5px 5px #bbb;
+overflow:hidden;
+}
+h2 {
+font-size: 2em;
+margin-left: 2em;
+}
+header {
+text-align:left;
+}
+/*====================*/
+/*== main nav =*/
+/*====================*/
+#nav {
+}
+nav#main {
+padding-top:1em;
+padding-right:1em;
+text-align: right;
+font-family: Federo;
+}
+nav#main ul {
+}
+nav#main ul li {
+margin-left:60px;
+display:inline;
+}
+nav#main ul li:first-child {
+margin-left:30px;
+}
+nav#main ul li a {
+color: #1f406b;
+border:0;
+font-size:1em;
+}
+nav#main ul li.current {
+}
+nav#main ul li.current a {
+color:#003a6f;
+border-bottom: 1px solid #003a6f;
+}
+nav#main ul li.current a:hover {
+color:#003a6f;
+text-decoration: none;
+}
+nav#main ul li a:hover {
+color:#7494cf;
+text-decoration: none;
+border-bottom: 1px solid #7494cf;
+}
+/*====================*/
+/*== the footer =*/
+/*====================*/
+footer {
+color: #0060a0;
+}
+footer a {
+color: #003060;
+border:0;
+}
+footer a:hover {
+color: #003060;
+}
+footer div.copy {
+text-align:right;
+}
+footer div.copy span {
+padding-left:1em;
+}
+/*====================*/
+/*=== Misc Styles ===*/
+/*====================*/
+.hide {
+display:none;
+}
+.loud {
+font-weight:bold;
+font-size:1.1em;
+}
+.clear {
+clear:both;
+padding:0;
+margin:0;
+}
+.right {
+  float:right;
+}
+
+.pointer {
+cursor:pointer;
+}
+
+/* Sharper Thumbnails */
+img {
+-ms-interpolation-mode:bicubic;
+}
+.container_12 {
+/* to show grid, uncomment.
+background: #fff url(../images/12_col.gif) repeat-y;
+    */
+background: #fff;
+overflow:hidden;
+}
